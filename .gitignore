@@ -1,0 +1,10 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cd]
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore other temporary files
+*.log
+*.DS_Store
