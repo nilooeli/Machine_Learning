@@ -28,12 +28,13 @@ Each project demonstrates a different algorithem or application, complete with m
    Location: supervised_algorithms/linear_vs_ridge_regression/linear_ridgge_regression.ipynb
    Goal: Compare performance of standard Linear Regression with Ridge Regression (L2 regularization) using the California Housing dataset.
    Key Features:
-     - Loads and preprocesses the California Housing
-     - Trains and evaluates:
-       - Linear Regression
-       - Ridge Regression
-     - Uses Mean Squared Error (MSE) and R2 Score for evaluation
-     - Includes side-by-side results for easy comparison
+   - Loads and preprocesses the California Housing
+   - Trains and evaluates:
+      - Linear Regression
+      - Ridge Regression
+   - Uses Mean Squared Error (MSE) and R2 Score for evaluation
+   - Includes side-by-side resutls for easy comparison
+
 
 
 
