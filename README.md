@@ -15,7 +15,7 @@ Each project demonstrates a different algorithem or application, complete with m
    - Performs PCA (2D) to reduce dimensionality for visualization
   
 ## 2. K-Nearest Neighbors Regression - California Housing
-   Location: supervised_algorithm/knn_regression/knn_regression.ipynb
+   Location: supervised_algorithm/knn_regression.ipynb
    Goal: Predict median house values using KNN regression on the California Housing dataset.
    Key Features:
    - Loads data using fetch_california_housing()
@@ -25,9 +25,9 @@ Each project demonstrates a different algorithem or application, complete with m
        - Mean Squared Error (MSE)
        - R2 Score
 ## 3. Linear vs Ridge vs Lasso vs ElasticNet Regression
-   Location: supervised_algorithms/linear_vs_ridge_regression/linear_ridgge_regression.ipynb
+   Location: supervised_algorithms/linear_ridgge_regression.ipynb
    Goal: Compare multiple linear model on the California Housing dataset to evaluate their performance in predicting housing prices.
-   # Model Compared:
+   ### Model Compared:
    - Linear Regression (no Regularization)
    - Ridge Regression (L2 Regularization)
    - Lasso Regression (L1 Regularization)
@@ -39,6 +39,20 @@ Each project demonstrates a different algorithem or application, complete with m
       - Ridge Regression
    - Uses Mean Squared Error (MSE) and R2 Score for evaluation
    - Includes side-by-side resutls for easy comparison
+
+## 4. Linear Classification with Logistic Regression
+   - Location: supervised_algorithm/logistic_regression_classification.ipynb
+   - Goal: Classify tumors as either Malignant (0) or Benign (1) based on various medical attributes (like mean radius, texture, etc.)
+   - Key Features:
+      - Uses the Breast Cancer Wisconsin datset to calssify tumors as Malignant or Benign
+      - Applies Logistic Regression to classify model
+      - Evaluation:
+         - Accuracy score
+         - Classification report (precision, recall, f1-score)
+         - Confusion matrix visualization using seaborn
+   
+      
+      
 
 
 
