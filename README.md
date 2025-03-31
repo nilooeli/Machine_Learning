@@ -27,7 +27,7 @@ Each project demonstrates a different algorithem or application, complete with m
 ## 3. Linear vs Ridge vs Lasso vs ElasticNet Regression
    Location: supervised_algorithms/linear_ridgge_regression.ipynb
    Goal: Compare multiple linear model on the California Housing dataset to evaluate their performance in predicting housing prices.
-   ### Model Compared:
+   Model Compared:
    - Linear Regression (no Regularization)
    - Ridge Regression (L2 Regularization)
    - Lasso Regression (L1 Regularization)
