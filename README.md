@@ -24,9 +24,14 @@ Each project demonstrates a different algorithem or application, complete with m
    - Evaluate with:
        - Mean Squared Error (MSE)
        - R2 Score
-## 3. Linear vs Ridge Regression (California Housing)
+## 3. Linear vs Ridge vs Lasso vs ElasticNet Regression
    Location: supervised_algorithms/linear_vs_ridge_regression/linear_ridgge_regression.ipynb
-   Goal: Compare performance of standard Linear Regression with Ridge Regression (L2 regularization) using the California Housing dataset.
+   Goal: Compare multiple linear model on the California Housing dataset to evaluate their performance in predicting housing prices.
+   # Model Compared:
+   - Linear Regression (no Regularization)
+   - Ridge Regression (L2 Regularization)
+   - Lasso Regression (L1 Regularization)
+   - ElasticNet Regression (L1 + L2 Combined)
    Key Features:
    - Loads and preprocesses the California Housing
    - Trains and evaluates:
