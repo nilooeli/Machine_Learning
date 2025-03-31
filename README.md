@@ -24,7 +24,6 @@ Each project demonstrates a different algorithem or application, complete with m
    - Evaluate with:
        - Mean Squared Error (MSE)
        - R2 Score
-    
-       - 
+
 # Author:
 # Niloo Eli
