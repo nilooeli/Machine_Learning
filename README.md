@@ -7,15 +7,15 @@ Each project demonstrates a different algorithem or application, complete with m
    Goal: Use KNN to classify images of handwritten digits from the scikit digits dataset.
    Key Features:
    - Loads digit images using load_digits()
-   - Splits data into traiing and test sets
+   - Splits data into training and test sets
    - Trains a KNN classifier using KNeighborsClassifier
    - Evaluate with:
        - Accuracy
        - Confusion matrix
-   - Performs PCA (2D) to reduce deimensionality for visualization
+   - Performs PCA (2D) to reduce dimensionality for visualization
   
 **2. K-Nearest Neighbors Regression - California Housing**
-   Location: supervised_algorithm/knn_regression/knn_regression.opynb
+   Location: supervised_algorithm/knn_regression/knn_regression.ipynb
    Goal: Predict median house values using KNN regression on the California Housing dataset.
    Key Features:
    - Loads data using fetch_california_housing()
