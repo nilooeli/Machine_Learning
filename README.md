@@ -55,7 +55,7 @@
       - Evaluate with:
           - Mean Squared Error (MSE)
           - R2 Score
-## 3. Linear vs Ridge vs Lasso vs ElasticNet Regression
+## 3. Regression Model Comparison
    - Location: supervised_algorithms/linear_ridgge_regression.ipynb
    - Goal: Compare multiple linear model on the California Housing dataset to evaluate their performance in predicting housing prices.
    - Key Features:
