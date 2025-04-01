@@ -20,11 +20,11 @@
 
 *Description:* This project applies the KNN regression technique to predict California housing prices based on various features such as location, size, and demographics.
 
-### 3. Linear vs Ridge Regression
+### 3. Regression Model Comparison
 
-*Notebook:* [linear_vs_ridge_regression.ipynb](supervised_algorithms/linear_vs_ridge_regression.ipynb)
+*Notebook:* [regression_models_comparison.ipynb](supervised_algorithms/regression_models_comparison.ipynb)
 
-*Description:* This project compares linear regression and ridge regression models to understand their performance differences, particularly in scenarios prone to overfitting. It provides insights into regularization techniques and their impact on model accuracy.
+*Description:* This project compares linear regression, ridge, loss, and elasticnet regression models to understand their performance differences. It provides insights into regularization techniques and their impact on model accuracy.
 
 ### 4. Logistic Regression Classification
 
