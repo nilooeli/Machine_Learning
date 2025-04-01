@@ -63,6 +63,8 @@
       - Trains and evaluates:
          - Linear Regression
          - Ridge Regression
+         - Lasso Regression
+         - ElasticNet Regression
    - Model Compared:
       - Linear Regression (no Regularization)
       - Ridge Regression (L2 Regularization)
