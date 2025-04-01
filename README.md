@@ -1,6 +1,6 @@
 # Supervised Learning Projects 
-This repository contains hands-on rojects focused on supervised learning techniques using Python and scikit-learn.
-Each project demonstrates a different algorithem or application, complete with model training, evaluation, and visualization
+This repository contains hands-on projects focused on supervised learning techniques using Python and scikit-learn.
+Each project demonstrates a different algorithm or application, complete with model training, evaluation, and visualization
 
 ## 1. K-Nearest Neighbors Classification - Handwritten Digits
    - Location: supervised_algorithm/knn_digits.ipynb
