@@ -1,6 +1,36 @@
-# Supervised Learning Projects 
-This repository contains hands-on projects focused on supervised learning techniques using Python and scikit-learn.
-Each project demonstrates a different algorithm or application, complete with model training, evaluation, and visualization
+## Table of Contents
+
+- [Supervised Learning Projects](#supervised-learning-projects)
+  - [1. K-Nearest Neighbors Classification - Handwritten Digits](#1-k-nearest-neighbors-classification---handwritten-digits)
+  - [2. K-Nearest Neighbors Regression - California Housing](#2-k-nearest-neighbors-regression---california-housing)
+  - [3. Logistic Regression Classification](#3-logistic-regression-classification)
+  - [4. Linear vs Ridge Regression](#4-linear-vs-ridge-regression)
+
+## Supervised Learning Projects
+
+### 1. K-Nearest Neighbors Classification - Handwritten Digits
+
+*Notebook:* [knn_digits.ipynb](supervised_algorithms/knn_digits.ipynb)
+
+*Description:* This project utilizes the K-Nearest Neighbors (KNN) algorithm to classify handwritten digits using the MNIST dataset. The goal is to accurately predict digit labels based on pixel data.
+
+### 2. K-Nearest Neighbors Regression - California Housing
+
+*Notebook:* [knn_regression.ipynb](supervised_algorithms/knn_regression.ipynb)
+
+*Description:* This project applies the KNN regression technique to predict California housing prices based on various features such as location, size, and demographics.
+
+### 3. Logistic Regression Classification
+
+*Notebook:* [logistic_regression_classification.ipynb](supervised_algorithms/logistic_regression_classification.ipynb)
+
+*Description:* This project employs logistic regression to perform binary classification tasks. It demonstrates the application of logistic regression on a chosen dataset to predict categorical outcomes.
+
+### 4. Linear vs Ridge Regression
+
+*Notebook:* [linear_vs_ridge_regression.ipynb](supervised_algorithms/linear_vs_ridge_regression.ipynb)
+
+*Description:* This project compares linear regression and ridge regression models to understand their performance differences, particularly in scenarios prone to overfitting. It provides insights into regularization techniques and their impact on model accuracy.
 
 ## 1. K-Nearest Neighbors Classification - Handwritten Digits
    - Location: supervised_algorithm/knn_digits.ipynb
