@@ -3,7 +3,7 @@
 - [Supervised Learning Projects](#supervised-learning-projects)
   - [1. K-Nearest Neighbors Classification - Handwritten Digits](#1-k-nearest-neighbors-classification---handwritten-digits)
   - [2. K-Nearest Neighbors Regression - California Housing](#2-k-nearest-neighbors-regression---california-housing)
-  - [3. Regression_models_comparison](#3-linear-vs-ridge-vs-lasso-elasticnet-regression)
+  - [3. Regression_models_comparison](#3-regression-model-comparison)
   - [4. Logistic Regression Classification](#4-logistic-regression-classification)
 
 ## Supervised Learning Projects
@@ -24,7 +24,7 @@
 
 *Notebook:* [regression_models_comparison.ipynb](supervised_algorithms/regression_models_comparison.ipynb)
 
-*Description:* This project compares linear regression, ridge, loss, and elasticnet regression models to understand their performance differences. It provides insights into regularization techniques and their impact on model accuracy.
+*Description:* This project compares Linear Regression, Ridge, Lasso, and Elasticnet regression models to understand their performance differences. It provides insights into regularization techniques and their impact on model accuracy. Includes side-by-side results for eady comparison.
 
 ### 4. Logistic Regression Classification
 
@@ -71,7 +71,7 @@
       - Lasso Regression (L1 Regularization)
       - ElasticNet Regression (L1 + L2 Combined)
    - Uses Mean Squared Error (MSE) and R2 Score for evaluation
-   - Includes side-by-side resutls for easy comparison
+   - Includes side-by-side results for easy comparison
 
 ## 4. Linear Classification with Logistic Regression
    - Location: supervised_algorithm/logistic_regression_classification.ipynb
