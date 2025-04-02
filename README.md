@@ -5,6 +5,7 @@
   - [2. K-Nearest Neighbors Regression - California Housing](#2-k-nearest-neighbors-regression---california-housing)
   - [3. Regression_models_comparison](#3-regression-model-comparison)
   - [4. Logistic Regression Classification](#4-logistic-regression-classification)
+  - [5. Linear SVM Classification - Banknote Authentication](#5-linear-svm-classification)
 
 ## Supervised Learning Projects
 
@@ -31,6 +32,12 @@
 *Notebook:* [logistic_regression_classification.ipynb](supervised_algorithms/logistic_regression_classification.ipynb)
 
 *Description:* This project employs logistic regression to perform binary classification tasks. It demonstrates the application of logistic regression on a chosen dataset to predict categorical outcomes.
+
+### 5. Linear SVM Classification
+
+*Notebook:* [linear_svm_banknote_classification.ipynb](supervised_algorithms/linear_svm_banknote_classification.ipynb)
+
+*Description:* This project demonstrate how to use a **Linear Support Vector Machine(SVM)** to classify banknotes as **authentic or forged** using the [UCI Banknote Authentication Dataset](https://archive.ics.uci.edu/ml/datasets/banknote+authentication).
 
 
 
