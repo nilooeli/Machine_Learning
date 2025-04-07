@@ -10,14 +10,23 @@
 
 ## Supervised Learning Projects
 
-This repository contains a collection of hands-on project using **supervised learning** algorithms in Python. Each project demonstrates key concepts in **clasification** and **regression**, using scikit-learn and real-world or built-in datasets. The notebooks are designed for learning, exploration, and visualization.
+This repository contains a collection of hands-on project using **supervised learning** algorithms in Python. Each project demonstrates key concepts in **classification** and **regression**, using scikit-learn and real-world or built-in datasets. The notebooks are designed for learning, exploration, and visualization.
 
 ## How to Run
 
 1. Clone the repository:
-   '''bash
+   ```bash
    git clone https://github.com/nilooeli/Supervised_Learning.git
    cd Supervised_Learning/supervised_algorithms
+
+## Requirements
+
+- Python 3.4
+- Jupyter Notebook
+- scikit_learn
+- pandas
+- numpy
+- matplotlib
 
 ### 1. K-Nearest Neighbors Classification - Handwritten Digits
 
