@@ -10,7 +10,7 @@
 
 ## Supervised Learning Projects
 
-This repository contains a collection of hands-on project using **supervised learning** algorithms in Python. Each project demonstrates by concepts in **clasification** and **regression**, using scikit-learn and real-world or built-in datasets. The notebooks are designed for learning, exploration, and visualization.
+This repository contains a collection of hands-on project using **supervised learning** algorithms in Python. Each project demonstrates key concepts in **clasification** and **regression**, using scikit-learn and real-world or built-in datasets. The notebooks are designed for learning, exploration, and visualization.
 
 ## How to Run
 
@@ -53,7 +53,7 @@ This repository contains a collection of hands-on project using **supervised lea
 
 *Notebook:* [Naive_Bayes_Classification.ipynb](supervised_algorithms/Naive_Bayes_Classification.ipynb)
 
-*Description:* This project demonstrates the implementation of the Naive Bayes classification algorithm using the Gaussian algorithm. This notebook inludes data exploration, model training, evaluation, and visualization of results.
+*Description:* This project demonstrates the implementation of the Naive Bayes classification algorithm using the Gaussian algorithm. This notebook includes data exploration, model training, evaluation, and visualization of results.
 
 
 
