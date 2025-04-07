@@ -3,15 +3,15 @@
 - [Supervised Learning Projects](#supervised-learning-projects)
   - [1. K-Nearest Neighbors Classification - Handwritten Digits](#1-k-nearest-neighbors-classification---handwritten-digits)
   - [2. K-Nearest Neighbors Regression - California Housing](#2-k-nearest-neighbors-regression---california-housing)
-  - [3. Regression_models_comparison](#3-regression-model-comparison)
+  - [3. Regression_models_comparison](#3-Regression-Model-Comparison)
   - [4. Logistic Regression Classification](#4-logistic-regression-classification)
   - [5. Linear SVM Classification - Banknote Authentication](#5-linear-svm-classification)
   - [6. Naive Bayes Classification - Gaussian Algorithm](#6-Naive-Bayes-Classification)
-  - [7. Heart Disease Prediction - Logistic Regression](#7-Heart Disease Prediction)
+  - [7. Heart Disease Prediction using Logistic Regression](#7-Heart Disease Prediction)
 
 ## Supervised Learning Projects
 
-This repository contains a collection of hands-on project using **supervised learning** algorithms in Python. Each project demonstrates key concepts in **classification** and **regression**, using scikit-learn and real-world or built-in datasets. The notebooks are designed for learning, exploration, and visualization.
+This repository contains a collection of hands-on projects using **supervised learning** algorithms in Python. Each project demonstrates key concepts in **classification** and **regression**, using scikit-learn and real-world or built-in datasets. The notebooks are designed for learning, exploration, and visualization.
 
 ## How to Run
 
@@ -67,9 +67,9 @@ This repository contains a collection of hands-on project using **supervised lea
 
 ### 7. Heart Disease Prediction using Logistic Regression
 
-*Notebook:* [Heart Disease Prediction using Logistic Regression.ipynb](supervised_algorithms/Heart Disease Prediction using Logistic Regression.ipynb)
+*Notebook:* [Heart_Disease_Logistic_Regression.ipynb](supervised_algorithms/Heart Disease Prediction using Logistic Regression.ipynb)
 
-*Description:* This project employs logistic regression to predict the presence of heart disease in patients. Using a dataset with various health indicators, the model aims to classify individuals as at risk or not at risk for heart disease. 
+*Description:* This project employs logistic regression to predict the presence of heart disease in patients. Using a dataset with various health indicators, this model classifies individuals as either at risk or not at risk for heart disease. 
 
 
 
