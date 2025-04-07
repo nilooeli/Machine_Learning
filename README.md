@@ -7,6 +7,7 @@
   - [4. Logistic Regression Classification](#4-logistic-regression-classification)
   - [5. Linear SVM Classification - Banknote Authentication](#5-linear-svm-classification)
   - [6. Naive Bayes Classification - Gaussian Algorithm](#6-Naive-Bayes-Classification)
+  - [7. Heart Disease Prediction - Logistic Regression](#7-Heart Disease Prediction)
 
 ## Supervised Learning Projects
 
@@ -63,6 +64,12 @@ This repository contains a collection of hands-on project using **supervised lea
 *Notebook:* [Naive_Bayes_Classification.ipynb](supervised_algorithms/Naive_Bayes_Classification.ipynb)
 
 *Description:* This project demonstrates the implementation of the Naive Bayes classification algorithm using the Gaussian algorithm. This notebook includes data exploration, model training, evaluation, and visualization of results.
+
+### 7. Heart Disease Prediction using Logistic Regression
+
+*Notebook:* [Heart Disease Prediction using Logistic Regression.ipynb](supervised_algorithms/Heart Disease Prediction using Logistic Regression.ipynb)
+
+*Description:* This project employs logistic regression to predict the presence of heart disease in patients. Using a dataset with various health indicators, the model aims to classify individuals as at risk or not at risk for heart disease. 
 
 
 
