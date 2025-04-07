@@ -7,7 +7,7 @@
   - [4. Logistic Regression Classification](#4-logistic-regression-classification)
   - [5. Linear SVM Classification - Banknote Authentication](#5-linear-svm-classification)
   - [6. Naive Bayes Classification - Gaussian Algorithm](#6-Naive-Bayes-Classification)
-  - [7. Heart Disease - Logistic Regression](#7-Heart Disease Logistic Regression)
+  - [7. Heart Disease Prediction using Logistic Regression](#7-heart-disease-prediction-using-logistic-regression)
 
 ## Supervised Learning Projects
 
