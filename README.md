@@ -6,6 +6,7 @@
   - [3. Regression_models_comparison](#3-regression-model-comparison)
   - [4. Logistic Regression Classification](#4-logistic-regression-classification)
   - [5. Linear SVM Classification - Banknote Authentication](#5-linear-svm-classification)
+  - [6. Naive Bayes Classification - Gaussian Algorithm](#6-Naive-Bayes-Classification)
 
 ## Supervised Learning Projects
 
@@ -47,6 +48,12 @@ This repository contains a collection of hands-on project using **supervised lea
 *Notebook:* [linear_svm_banknote_classification.ipynb](supervised_algorithms/linear_svm_banknote_classification.ipynb)
 
 *Description:* This project demonstrate how to use a **Linear Support Vector Machine(SVM)** to classify banknotes as **authentic or forged** using the [UCI Banknote Authentication Dataset](https://archive.ics.uci.edu/ml/datasets/banknote+authentication).
+
+### 6. Naive Bayes Classification
+
+*Notebook:* [Naive_Bayes_Classification.ipynb](supervised_algorithms/Naive_Bayes_Classification.ipynb)
+
+*Description:* This project demonstrates the implementation of the Naive Bayes classification algorithm using the Gaussian algorithm. This notebook inludes data exploration, model training, evaluation, and visualization of results.
 
 
 
