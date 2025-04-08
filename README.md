@@ -8,6 +8,7 @@
   - [5. Linear SVM Classification - Banknote Authentication](#5-linear-svm-classification)
   - [6. Naive Bayes Classification - Gaussian Algorithm](#6-Naive-Bayes-Classification)
   - [7. Heart Disease Logistic Regression](#7-heart-disease-logistic-regression)
+  - [8. Diabetes Prediction Decision Tree](#8-Diabetes-Prediction-Decision-Tree)
 
 ## Supervised Learning Projects
 
@@ -70,6 +71,12 @@ This repository contains a collection of hands-on projects using **supervised le
 *Notebook:* [Heart_Disease_Logistic_Regression.ipynb](supervised_algorithms/Heart_Disease_Logistic_Regression.ipynb)
 
 *Description:* This project employs logistic regression to predict the presence of heart disease in patients. Using a dataset with various health indicators, this model classifies individuals as either at risk or not at risk for heart disease. 
+
+### 8. Diabetes Prediction Decision Tree
+
+*Notebook:" [Diabetes_Prediction_Decision_Tree.ipynb](supervised_algorithms/Diabetes_Prediction_Decision_Tree.ipynb)
+
+*Description:* This project employs a Decision Tree Classifier to predict diabetes based on th Pima Indians Diabetes Database.
 
 
 
