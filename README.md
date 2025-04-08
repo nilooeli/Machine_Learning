@@ -76,7 +76,7 @@ This repository contains a collection of hands-on projects using **supervised le
 
 *Notebook:" [Diabetes_Prediction_Decision_Tree.ipynb](supervised_algorithms/Diabetes_Prediction_Decision_Tree.ipynb)
 
-*Description:* This project employs a Decision Tree Classifier to predict diabetes based on th Pima Indians Diabetes Database.
+*Description:* This project develops a Decision Tree model to predict the likelihood of a patient havig diabetes based on specific health metrics, utilizing the Pima Indian Diabetes Database.
 
 
 
