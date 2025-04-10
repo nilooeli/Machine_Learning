@@ -89,7 +89,7 @@ This project develops a Decision Tree model to predict the likelihood of a patie
 
 ### 🧩 Confusion Matrix
 
-<img src="Diabetes_Prediction/images/confusion_matrix.png" width="600">
+<img src="images/confusion_matrix.png" width="600">
 
 *Figure: Confusion Matrix showing true vs. predicted classifications.*
 
@@ -97,7 +97,7 @@ This project develops a Decision Tree model to predict the likelihood of a patie
 
 ### 🌳 Decision Tree Plot
 
-<img src="Diabetes_Prediction/images/decision_tree_plot.png" width="600">
+<img src="images/decision_tree_plot.png" width="600">
 
 *Figure: Visualization of the trained Decision Tree used for prediction.*
 
@@ -105,7 +105,7 @@ This project develops a Decision Tree model to predict the likelihood of a patie
 
 ### ⭐ Feature Importance
 
-<img src="Diabetes_Prediction/images/feature_importance.png" width="600">
+<img src="images/feature_importance.png" width="600">
 
 *Figure: Feature importance scores showing which variables influenced the model most.*
 
@@ -113,7 +113,7 @@ This project develops a Decision Tree model to predict the likelihood of a patie
 
 ### 🧾 Classification Report
 
-<img src="Diabetes_Prediction/images/classification_report.png" width="600">
+<img src="images/classification_report.png" width="600">
 
 *Figure: Detailed performance report including precision, recall, and F1-score.*
 
