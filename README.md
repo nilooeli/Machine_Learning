@@ -78,6 +78,22 @@ This repository contains a collection of hands-on projects using **supervised le
 
 *Description:* This project develops a Decision Tree model to predict the likelihood of a patient havig diabetes based on specific health metrics, utilizing the Pima Indian Diabetes Database.
 
+## Confusion Matrix
+
+![Confusion Matrix](images/Confusion Matrix.png)
+
+## Decision Tree Plot
+
+![Decision Tree](images/Decision Tree for Diabetes Prediction.png)
+
+## Feature Importance
+
+![Feature Importance](images/Feature Importance in Diabetes Prediction.png)
+
+## Classification Report
+
+![Classification Report](images/Classification Report.png)
+
 
 
       
