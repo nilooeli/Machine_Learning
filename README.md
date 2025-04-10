@@ -97,7 +97,7 @@ This project develops a Decision Tree model to predict the likelihood of a patie
 
 ### 🌳 Decision Tree Plot
 
-<img src="images/decision_tree_plot.png" width="600">
+<img src="images/decision_tree_for_diabetes_prediction.png" width="600">
 
 *Figure: Visualization of the trained Decision Tree used for prediction.*
 
@@ -105,7 +105,7 @@ This project develops a Decision Tree model to predict the likelihood of a patie
 
 ### ⭐ Feature Importance
 
-<img src="images/feature_importance.png" width="600">
+<img src="images/feature_importance_in_diabetes_prediction.png" width="600">
 
 *Figure: Feature importance scores showing which variables influenced the model most.*
 
