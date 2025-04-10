@@ -81,6 +81,26 @@ This project develops a Decision Tree model to predict the likelihood of a patie
 
 ---
 
+### Dataset
+
+- **Name:** Pima Indian Diabetes Dataset
+- **Source:** [UCI Machine Learning Repository](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)  
+- **Samples:** 768 rows × 9 columns  
+- **Target variable:** `Outcome` (0 = No Diabetes, 1 = Diabetes)  
+- **Features:**  
+  - Pregnancies  
+  - Glucose  
+  - BloodPressure  
+  - SkinThickness  
+  - Insulin  
+  - BMI  
+  - DiabetesPedigreeFunction  
+  - Age
+
+> The dataset is included as `diabetes.csv` in this repository.
+
+---
+
 ### 📊 Model Accuracy
 **Test Accuracy:** 79.2%  
 *Evaluated using a confusion matrix and classification metrics.*
