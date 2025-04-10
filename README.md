@@ -72,28 +72,50 @@ This repository contains a collection of hands-on projects using **supervised le
 
 *Description:* This project employs logistic regression to predict the presence of heart disease in patients. Using a dataset with various health indicators, this model classifies individuals as either at risk or not at risk for heart disease. 
 
-### 8. Diabetes Prediction Decision Tree
+## 8. Diabetes Prediction Decision Tree
 
-*Notebook:" [Diabetes_Prediction_Decision_Tree.ipynb](supervised_algorithms/Diabetes_Prediction_Decision_Tree.ipynb)
+*Notebook:* [Diabetes_Prediction_Decision_Tree.ipynb](Diabetes_Prediction/Diabetes_Prediction_Decision_Tree.ipynb)
 
-*Description:* This project develops a Decision Tree model to predict the likelihood of a patient havig diabetes based on specific health metrics, utilizing the Pima Indian Diabetes Database.
+**Description:**  
+This project develops a Decision Tree model to predict the likelihood of a patient having diabetes based on specific health metrics, utilizing the Pima Indian Diabetes Database.
 
-## Confusion Matrix
+---
 
-![Confusion Matrix](images/confusion_matrix.png)
+### 📊 Model Accuracy
+**Test Accuracy:** 79.2%  
+*Evaluated using a confusion matrix and classification metrics.*
 
-## Decision Tree Plot
+---
 
-![Decision Tree](images/decision_tree_for_diabetes_prediction.png)
+### 🧩 Confusion Matrix
 
-## Feature Importance
+<img src="Diabetes_Prediction/images/confusion_matrix.png" width="600">
 
-![Feature Importance](images/feature_importance_in_diabetes_prediction.png)
+*Figure: Confusion Matrix showing true vs. predicted classifications.*
 
-## Classification Report
+---
 
-![Classification Report](images/classification_report.png)
+### 🌳 Decision Tree Plot
 
+<img src="Diabetes_Prediction/images/decision_tree_plot.png" width="600">
+
+*Figure: Visualization of the trained Decision Tree used for prediction.*
+
+---
+
+### ⭐ Feature Importance
+
+<img src="Diabetes_Prediction/images/feature_importance.png" width="600">
+
+*Figure: Feature importance scores showing which variables influenced the model most.*
+
+---
+
+### 🧾 Classification Report
+
+<img src="Diabetes_Prediction/images/classification_report.png" width="600">
+
+*Figure: Detailed performance report including precision, recall, and F1-score.*
 
 
       
