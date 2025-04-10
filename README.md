@@ -80,19 +80,19 @@ This repository contains a collection of hands-on projects using **supervised le
 
 ## Confusion Matrix
 
-![Confusion Matrix](images/Confusion Matrix.png)
+![Confusion Matrix](images/confusion_matrix.png)
 
 ## Decision Tree Plot
 
-![Decision Tree](images/Decision Tree for Diabetes Prediction.png)
+![Decision Tree](images/decision_tree_for_diabetes_prediction.png)
 
 ## Feature Importance
 
-![Feature Importance](images/Feature Importance in Diabetes Prediction.png)
+![Feature Importance](images/feature_importance_in_diabetes_prediction.png)
 
 ## Classification Report
 
-![Classification Report](images/Classification Report.png)
+![Classification Report](images/classification_report.png)
 
 
 
