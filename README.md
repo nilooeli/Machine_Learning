@@ -141,7 +141,27 @@ This project develops a Decision Tree model to predict the likelihood of a patie
 *Figure: Detailed performance report including precision, recall, and F1-score.*
 
 ## 9. Diabetes Random Forest
+
+*Notebook:* [diabetes_random_forest.ipynb](supervised_algorithms/diabetes_random_forest.ipynb)
+
+*Description:* This notebook trains and evaluates a Random Forest classifier on the diabetes dataset.
+It includes:
+- Feature scaling
+- Training using `RandomForestClassifier`
+- Evaluation using accuracy, precision, recall, F1 score, and ROC AUC
+- A decision tree export and feature importance visualization
+
 ## 10. Diabetes Gradient Boosting
+
+*Notebook:* [diabetes_gradient_boosting.ipynb](supervised_algorithms/diabetes_gradient_boosting.ipynb)
+
+*Description:* This notebook applies a Gradient Boosting Classifier to the diabetes dataset.
+It includes:
+- Feature scaling
+- Training using `GradientBoostingClassifier`
+- Evaluation using classification metrics and ROC AUC
+- Feature importance analysis
+  
 ## 11. Diabetes Model Comparison (Decision Tree Random Forest, Gradient Boosting)
 
 *Notebook:* [diabetes_model_comparison.ipynb](supervised_algorithms/diabetes_model_comparison.ipynb)
