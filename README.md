@@ -11,7 +11,8 @@
   - [8. Diabetes Prediction Decision Tree](#8-Diabetes-Prediction-Decision-Tree)
   - [9. Diabetes Random Forest](#9-Diabetes-Radom-Forest)
   - [10. Diabetes Gradient Boosting](#10-Diabetes-Gradient-Boosting)
-  - [11. Diabetes Model Comparison)(#11-Diabetes-Model-Comparison)
+  - [11. Diabetes Model Comparison](#11-diabetes-model-comparison-decision-tree-random-forest-gradient-boosting)
+    
 
 ## Supervised Learning Projects
 
@@ -144,10 +145,10 @@ This project develops a Decision Tree model to predict the likelihood of a patie
 
 *Notebook:* [diabetes_random_forest.ipynb](supervised_algorithms/diabetes_random_forest.ipynb)
 
-*Description:* This notebook trains and evaluates a Random Forest classifier on the diabetes dataset.
+*Description:* This notebook applies a **Random Forest Classifier** to predict whether a person has diabetes using medical feature inputs.  
 It includes:
-- Feature scaling
-- Training using `RandomForestClassifier`
+- Data preprocessing and feature scaling
+- Model training with `RandomForestClassifier`
 - Evaluation using accuracy, precision, recall, F1 score, and ROC AUC
 - A decision tree export and feature importance visualization
 
@@ -155,28 +156,29 @@ It includes:
 
 *Notebook:* [diabetes_gradient_boosting.ipynb](supervised_algorithms/diabetes_gradient_boosting.ipynb)
 
-*Description:* This notebook applies a Gradient Boosting Classifier to the diabetes dataset.
+*Description:* This notebook uses a **Gradient Boosting Classifier** to predict diabetes.  
 It includes:
-- Feature scaling
-- Training using `GradientBoostingClassifier`
-- Evaluation using classification metrics and ROC AUC
-- Feature importance analysis
+- Preprocessing and feature scaling
+- Training with `GradientBoostingClassifier`
+- Evaluation using classification metrics
+- Visualization of feature importances
   
 ## 11. Diabetes Model Comparison (Decision Tree Random Forest, Gradient Boosting)
 
 *Notebook:* [diabetes_model_comparison.ipynb](supervised_algorithms/diabetes_model_comparison.ipynb)
 
-*Description:*  This notebook compares the performance of three models:
+*Description:* This notebook compares the performance of three models trained on the same dataset:
 - Decision Tree
-- Random Forest 
+- Random Forest
 - Gradient Boosting
 
-The notebook includes:
-- Training each model on scaled data
-- Calculating evaluation metrics: accuracy, precision, recall, F1 score, and ROC AUC
-- Plotting ROC curves of all three models on one figure
-- Automatically identifying the best model(s) using ROC AUC
-- Markdown explanations for all metrics and plots
+It performs:
+- Data preprocessing and standardization
+- Training and evaluating all models
+- Measuring performance using Accuracy, Precision, Recall, F1 Score, and ROC AUC
+- Plotting **all ROC curves on one graph** for easy comparison
+- Automatically identifying the best model(s) based on ROC AUC  
+- Includes **Markdown explanations** of evaluation metrics and the ROC curve to enhance understanding
 
 
       
