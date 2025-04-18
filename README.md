@@ -9,6 +9,9 @@
   - [6. Naive Bayes Classification - Gaussian Algorithm](#6-Naive-Bayes-Classification)
   - [7. Heart Disease Logistic Regression](#7-heart-disease-logistic-regression)
   - [8. Diabetes Prediction Decision Tree](#8-Diabetes-Prediction-Decision-Tree)
+  - [9. Diabetes Random Forest](#9-Diabetes-Radom-Forest)
+  - [10. Diabetes Gradient Boosting](#10-Diabetes-Gradient-Boosting)
+  - [11. Diabetes Model Comparison)(#11-Diabetes-Model-Comparison)
 
 ## Supervised Learning Projects
 
@@ -136,6 +139,24 @@ This project develops a Decision Tree model to predict the likelihood of a patie
 <img src="images/classification_report.png" width="600">
 
 *Figure: Detailed performance report including precision, recall, and F1-score.*
+
+## 9. Diabetes Random Forest
+## 10. Diabetes Gradient Boosting
+## 11. Diabetes Model Comparison (Decision Tree Random Forest, Gradient Boosting)
+
+*Notebook:* [diabetes_model_comparison.ipynb](supervised_algorithms/diabetes_model_comparison.ipynb)
+
+*Description:*  This notebook compares the performance of three models:
+- Decision Tree
+- Random Forest 
+- Gradient Boosting
+
+The notebook includes:
+- Training each model on scaled data
+- Calculating evaluation metrics: accuracy, precision, recall, F1 score, and ROC AUC
+- Plotting ROC curves of all three models on one figure
+- Automatically identifying the best model(s) using ROC AUC
+- Markdown explanations for all metrics and plots
 
 
       
