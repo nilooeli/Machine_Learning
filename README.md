@@ -12,7 +12,8 @@
   - [9. Diabetes Random Forest](#9-Diabetes-Radom-Forest)
   - [10. Diabetes Gradient Boosting](#10-Diabetes-Gradient-Boosting)
   - [11. Diabetes Model Comparison](#11-diabetes-model-comparison-decision-tree-random-forest-gradient-boosting)
-    
+  - [12. Kernelized Support Vector Machine - Social Network Ads]
+  
 
 ## Supervised Learning Projects
 
@@ -179,6 +180,29 @@ It performs:
 - Plotting **all ROC curves on one graph** for easy comparison
 - Automatically identifying the best model(s) based on ROC AUC  
 - Includes **Markdown explanations** of evaluation metrics and the ROC curve to enhance understanding
+
+## 12. Kernelized Support Vector Machine - Social Network Ads
+
+*Notebook:* [kernelized_svm.ipynb](supervised_algorithms/kernelized_svm.ipynb)
+
+*Description:* This notebook trains an SVM with an **RBF kernel** to predict whether a user will purchase a product based on **Age** and **Estimated Salary**.
+Key steps includ data loading, feature scaling, model training ('SVC' with 'kernel=rbf'), evaluation (confusion matrix & classification report), and a **decision-boundary plot** that visually separates purchase vs. no-purchase regions. The notebook also produces side-by-side plots for the decision surface for training and test data so you can instantly spot any mis-classified points.
+
+### Dataset
+  **Name:** Social Network Ads
+  **Source:** Kaggel (400 rows x 5 columns)
+  **Features used:**
+    * Age
+    * EstimatedSalary
+  **Target:** Purchased (0 = No, 1 = Yes)
+
+### Model Parameters
+  **C = 1**: Balanced margin vs misclassification
+  **gamma = 0.1**: Niderately smooth decision surface 
+  
+
+ 
+
 
 
       
