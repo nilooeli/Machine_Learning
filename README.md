@@ -12,7 +12,7 @@
   - [9. Diabetes Random Forest](#9-Diabetes-Radom-Forest)
   - [10. Diabetes Gradient Boosting](#10-Diabetes-Gradient-Boosting)
   - [11. Diabetes Model Comparison](#11-diabetes-model-comparison-decision-tree-random-forest-gradient-boosting)
-  - [12. Kernelized Support Vector Machine - Social Network Ads]
+  - [12. Kernelized Support Vector Machine - Social Network Ads](#12-kernelized-svm-social-network-ads)
   
 
 ## Supervised Learning Projects
