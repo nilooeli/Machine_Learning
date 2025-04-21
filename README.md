@@ -13,6 +13,7 @@
   - [10. Diabetes Gradient Boosting](#10-Diabetes-Gradient-Boosting)
   - [11. Diabetes Model Comparison](#11-diabetes-model-comparison-decision-tree-random-forest-gradient-boosting)
   - [12. Kernelized Support Vector Machine - Social Network Ads](#12-kernelized-svm-social-network-ads)
+  - [13. Neural Network - Digits Classification (MLP)](#13-digits-mlp-classifier)
   
 
 ## Supervised Learning Projects
@@ -199,14 +200,14 @@ Key steps includ data loading, feature scaling, model training ('SVC' with 'kern
 ### Model Parameters
   **C = 1**: Balanced margin vs misclassification
   **gamma = 0.1**: Niderately smooth decision surface 
-  
 
- 
+## 13. Neural Newrok - Digits Classification (MLP)
 
+*Notebook:* [digits_mlp_classifier.ipynb](supervised_algorithms/digits_mlp_classifier.ipynb)
 
+*Description:* This project trains a **Multi-Layer Perceptron (MLPClassifier)** to recognise handwritten digits (0-9) fromthe scikit-learn **digits** datasest (1 797 samples, 64 features per image).
 
-      
-      
+*Accuracy score = 98%*
 
 
 
