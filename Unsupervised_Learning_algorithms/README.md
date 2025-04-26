@@ -34,12 +34,7 @@ unsupervised-learning techniques in Python:
 
 ## Requirements
 
-- Python 3.x
-- Jupyter Notebook
-- scikit_learn
-- pandas
-- numpy
-- matplotlib
+See [../requirements.txt](../requirements.txt) for all packages.
 
 ## 1. Breast Cancer Scaling Effect
 
