@@ -25,7 +25,7 @@ This repository contains a collection of hands-on projects using **supervised le
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/nilooeli/Machine_Learning/Supervised_Learning_algorithms.git
+   git clone https://github.com/nilooeli/Machine_Learning.git
    cd Machine_Learning/Supervised_Learning_algorithms
 
 ## Requirements
@@ -39,49 +39,49 @@ This repository contains a collection of hands-on projects using **supervised le
 
 ## 1. K-Nearest Neighbors Classification - Handwritten Digits
 
-*Notebook:* [knn_digits.ipynb](supervised_algorithms/knn_digits.ipynb)
+*Notebook:* [knn_digits.ipynb](Supervised_Learning_algorithms/knn_digits.ipynb)
 
 *Description:* This project utilizes the K-Nearest Neighbors (KNN) algorithm to classify handwritten digits using the MNIST dataset. The goal is to accurately predict digit labels based on pixel data.
 
 ## 2. K-Nearest Neighbors Regression - California Housing
 
-*Notebook:* [knn_regression.ipynb](supervised_algorithms/knn_regression.ipynb)
+*Notebook:* [knn_regression.ipynb](Supervised_Learning_algorithms/knn_regression.ipynb)
 
 *Description:* This project applies the KNN regression technique to predict California housing prices based on various features such as location, size, and demographics.
 
 ## 3. Regression Model Comparison
 
-*Notebook:* [regression_models_comparison.ipynb](supervised_algorithms/regression_models_comparison.ipynb)
+*Notebook:* [regression_models_comparison.ipynb](Supervised_Learning_algorithms/regression_models_comparison.ipynb)
 
 *Description:* This project compares Linear Regression, Ridge, Lasso, and Elasticnet regression models to understand their performance differences. It provides insights into regularization techniques and their impact on model accuracy. Includes side-by-side results for easy comparison.
 
 ## 4. Logistic Regression Classification
 
-*Notebook:* [logistic_regression_classification.ipynb](supervised_algorithms/logistic_regression_classification.ipynb)
+*Notebook:* [logistic_regression_classification.ipynb](Supervised_Learning_algorithms/logistic_regression_classification.ipynb)
 
 *Description:* This project employs logistic regression to perform binary classification tasks. It demonstrates the application of logistic regression on a chosen dataset to predict categorical outcomes.
 
 ## 5. Linear SVM Classification
 
-*Notebook:* [linear_svm_banknote_classification.ipynb](supervised_algorithms/linear_svm_banknote_classification.ipynb)
+*Notebook:* [linear_svm_banknote_classification.ipynb](Supervised_Learning_algorithms/linear_svm_banknote_classification.ipynb)
 
 *Description:* This project demonstrate how to use a **Linear Support Vector Machine(SVM)** to classify banknotes as **authentic or forged** using the [UCI Banknote Authentication Dataset](https://archive.ics.uci.edu/ml/datasets/banknote+authentication).
 
 ## 6. Naive Bayes Classification
 
-*Notebook:* [Naive_Bayes_Classification.ipynb](supervised_algorithms/Naive_Bayes_Classification.ipynb)
+*Notebook:* [Naive_Bayes_Classification.ipynb](Supervised_Learning_algorithms/Naive_Bayes_Classification.ipynb)
 
 *Description:* This project demonstrates the implementation of the Naive Bayes classification algorithm using the Gaussian algorithm. This notebook includes data exploration, model training, evaluation, and visualization of results.
 
 ## 7. Heart Disease Logistic Regression
 
-*Notebook:* [Heart_Disease_Logistic_Regression.ipynb](supervised_algorithms/Heart_Disease_Logistic_Regression.ipynb)
+*Notebook:* [Heart_Disease_Logistic_Regression.ipynb](Supervised_Learning_algorithms/Heart_Disease_Logistic_Regression.ipynb)
 
 *Description:* This project employs logistic regression to predict the presence of heart disease in patients. Using a dataset with various health indicators, this model classifies individuals as either at risk or not at risk for heart disease. 
 
 ## 8. Diabetes Prediction Decision Tree
 
-*Notebook:* [Diabetes_Prediction_Decision_Tree.ipynb](Diabetes_Prediction/Diabetes_Prediction_Decision_Tree.ipynb)
+*Notebook:* [Diabetes_Prediction_Decision_Tree.ipynb](Supervised_Learning_algorithms/Diabetes_Prediction/Diabetes_Prediction_Decision_Tree.ipynb)
 
 **Description:**  
 This project develops a Decision Tree model to predict the likelihood of a patient having diabetes based on specific health metrics, utilizing the Pima Indian Diabetes Database.
@@ -146,7 +146,7 @@ This project develops a Decision Tree model to predict the likelihood of a patie
 
 ## 9. Diabetes Random Forest
 
-*Notebook:* [diabetes_random_forest.ipynb](supervised_algorithms/diabetes_random_forest.ipynb)
+*Notebook:* [diabetes_random_forest.ipynb](Supervised_Learning_algorithms/diabetes_random_forest.ipynb)
 
 *Description:* This notebook applies a **Random Forest Classifier** to predict whether a person has diabetes using medical feature inputs.  
 It includes:
@@ -157,7 +157,7 @@ It includes:
 
 ## 10. Diabetes Gradient Boosting
 
-*Notebook:* [diabetes_gradient_boosting.ipynb](supervised_algorithms/diabetes_gradient_boosting.ipynb)
+*Notebook:* [diabetes_gradient_boosting.ipynb](Supervised_Learning_algorithms/diabetes_gradient_boosting.ipynb)
 
 *Description:* This notebook uses a **Gradient Boosting Classifier** to predict diabetes.  
 It includes:
@@ -168,7 +168,7 @@ It includes:
   
 ## 11. Diabetes Model Comparison (Decision Tree Random Forest, Gradient Boosting)
 
-*Notebook:* [diabetes_model_comparison.ipynb](supervised_algorithms/diabetes_model_comparison.ipynb)
+*Notebook:* [diabetes_model_comparison.ipynb](Supervised_Learning_algorithms/diabetes_model_comparison.ipynb)
 
 *Description:* This notebook compares the performance of three models trained on the same dataset:
 - Decision Tree
@@ -185,7 +185,7 @@ It performs:
 
 ## 12. Kernelized Support Vector Machine - Social Network Ads
 
-*Notebook:* [kernelized_svm.ipynb](supervised_algorithms/kernelized_svm.ipynb)
+*Notebook:* [kernelized_svm.ipynb](Supervised_Learning_algorithms/kernelized_svm.ipynb)
 
 *Description:* This notebook trains an SVM with an **RBF kernel** to predict whether a user will purchase a product based on **Age** and **Estimated Salary**.
 Key steps includ data loading, feature scaling, model training ('SVC' with 'kernel=rbf'), evaluation (confusion matrix & classification report), and a **decision-boundary plot** that visually separates purchase vs. no-purchase regions. The notebook also produces side-by-side plots for the decision surface for training and test data so you can instantly spot any mis-classified points.
@@ -204,7 +204,7 @@ Key steps includ data loading, feature scaling, model training ('SVC' with 'kern
 
 ## 13. Neural Newrok - Digits Classification (MLP)
 
-*Notebook:* [digits_mlp_classifier.ipynb](supervised_algorithms/digits_mlp_classifier.ipynb)
+*Notebook:* [digits_mlp_classifier.ipynb](Supervised_Learning_algorithms/digits_mlp_classifier.ipynb)
 
 *Description:* This project trains a **Multi-Layer Perceptron (MLPClassifier)** to recognise handwritten digits (0-9) fromthe scikit-learn **digits** datasest (1 797 samples, 64 features per image).
 
@@ -212,7 +212,7 @@ Key steps includ data loading, feature scaling, model training ('SVC' with 'kern
 
 ## 14. Breast Cancer Scaling Effect
 
-*Notebook:* [breast_cancer_scaling_effect.ipynb](unsupervised_learning_algorithms/breast_cancer_scaling_effect.ipynb)
+*Notebook:* [breast_cancer_scaling_effect.ipynb](Supervised_learning_algorithms/breast_cancer_scaling_effect.ipynb)
 
 *Description:* This notebook benchmarks four supervised-learning models (SVM, k-NN, Logistic Reg, Random Forest) on the Wisconsin breast-cancer dataset and demostrates how applying StandardScaler impacts each model's accuracy and confusion matrix.
 
