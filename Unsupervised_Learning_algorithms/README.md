@@ -17,7 +17,7 @@ This folder holds notebooks demontrating key unsupervised techniques:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/nilooeliMachine_Learning/Unsupervised_Learning_algorithms.git
+   git clone https://github.com/nilooeli/Machine_Learning/Unsupervised_Learning_algorithms.git
    cd Machine_Learning/Unsupervised_Learning_algorithms
 
 ## Requirements
