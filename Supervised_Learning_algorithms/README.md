@@ -14,6 +14,7 @@
   - [11. Diabetes Model Comparison](#11-diabetes-model-comparison-decision-tree-random-forest-gradient-boosting)
   - [12. Kernelized Support Vector Machine - Social Network Ads](#12-kernelized-svm-social-network-ads)
   - [13. Neural Network - Digits Classification (MLP)](#13-digits-mlp-classifier)
+  - [14. Breast Cancer Scaling Effect](#14-breast-cancer-scaling-effect)
   
 
 ## Supervised Learning Projects
@@ -209,21 +210,11 @@ Key steps includ data loading, feature scaling, model training ('SVC' with 'kern
 
 *Accuracy score = 98%*
 
+## 14. Breast Cancer Scaling Effect
 
+*Notebook:* [breast_cancer_scaling_effect.ipynb](unsupervised_learning_algorithms/breast_cancer_scaling_effect.ipynb)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+*Description:* This notebook benchmarks four supervised-learning models (SVM, k-NN, Logistic Reg, Random Forest) on the Wisconsin breast-cancer dataset and demostrates how applying StandardScaler impacts each model's accuracy and confusion matrix.
 
 
 
