@@ -2,7 +2,7 @@
 
 This repository showcases both supervised and unsupervised learning workflows.
 
-- [Supervised Learningg](Supervised_Learning_algorithms/README.md)
+- [Supervised Learning](Supervised_Learning_algorithms/README.md)
   Benchmarks of SVM, k-NN, Logistic Regression, and Random Forest on the Wisconsin breast-cancer dataset.
   
 - [Unsupervised Learning](Unsupervised_Learning_algorithms/README.md)
