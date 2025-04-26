@@ -1,5 +1,10 @@
-# Unsupervised Learning Algorithms
+## Table of Contents
 
+- [Unsupervised Learning Projects](#Unsupervised-learning-projects)
+  - [1. Breast Cancer Scaling Effect](#1-breast-cancer-scaling-effect)
+
+## Unsupervised Learning Projects
+This repository contains a collection of hands-on projects using **unsupervised learning** algorithms in Python.
 This folder holds notebooks demontrating key unsupervised techniques:
 
 - **K-Means Clustering** (`KMeans_clustering.ipynb`)  
@@ -13,3 +18,18 @@ This folder holds notebooks demontrating key unsupervised techniques:
 ```bash
 cd Unsupervised_Learning_algorithms
 jupyter notebook
+
+## Requirements
+
+- Python 3
+- Jupyter Notebook
+- scikit_learn
+- pandas
+- numpy
+- matplotlib
+
+## 1. Breast Cancer Scaling Effect
+
+*Notebook:* [breast_cancer_scaling_effect.ipynb](unsupervised_learning_algorithms/breast_cancer_scaling_effect.ipynb)
+
+*Description:* This notebook benchmarks four supervised-learning models on the Wisconsin breast-cancer dataset and demostrates how applying StandardScaler impacts each model's accuracy and confusion matrix.
