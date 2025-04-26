@@ -24,12 +24,12 @@ This repository contains a collection of hands-on projects using **supervised le
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/nilooeli/Supervised_Learning.git
-   cd Supervised_Learning/supervised_algorithms
+   git clone https://github.com/nilooeli/Machine_Learning/Supervised_Learning_algorithms.git
+   cd Machine_Learning/Supervised_Learning_algorithms
 
 ## Requirements
 
-- Python 3.4
+- Python 3
 - Jupyter Notebook
 - scikit_learn
 - pandas
