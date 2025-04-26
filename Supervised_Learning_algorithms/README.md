@@ -30,12 +30,8 @@ This repository contains a collection of hands-on projects using **supervised le
 
 ## Requirements
 
-- Python 3
-- Jupyter Notebook
-- scikit_learn
-- pandas
-- numpy
-- matplotlib
+See [../requirements.txt](../requirements.txt) for all packages.
+
 
 ## 1. K-Nearest Neighbors Classification - Handwritten Digits
 
