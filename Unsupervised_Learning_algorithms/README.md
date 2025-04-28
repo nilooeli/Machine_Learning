@@ -36,8 +36,4 @@ unsupervised-learning techniques in Python:
 
 See [../requirements.txt](../requirements.txt) for all packages.
 
-## 1. Breast Cancer Scaling Effect
 
-*Notebook:* [breast_cancer_scaling_effect.ipynb](unsupervised_learning_algorithms/breast_cancer_scaling_effect.ipynb)
-
-*Description:* This notebook benchmarks four supervised-learning models on the Wisconsin breast-cancer dataset and demostrates how applying StandardScaler impacts each model's accuracy and confusion matrix.
