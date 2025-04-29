@@ -42,6 +42,7 @@ unsupervised-learning techniques in Python:
 
 See [../requirements.txt](../requirements.txt) for all packages.
 
+
 ## 1. PCA Digits - Handwriten Digits
 
 *Notebook:* [knn_digits.ipynb](Unsupervised_Learning_algorithms/knn_digits.ipynb)
