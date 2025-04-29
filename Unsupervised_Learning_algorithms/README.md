@@ -1,6 +1,6 @@
 ## Table of Contents
 
--[Unsupervised Learning Projects](#Unsupervised-Learning-algorithms)
+- [Unsupervised Learning Projects](#Unsupervised-Learning-algorithms)
    - [1. PCA Digits - Handwritten Digits](#1-pca-digits)
      
 
