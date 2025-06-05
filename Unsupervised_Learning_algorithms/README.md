@@ -2,7 +2,8 @@
 
 - [Unsupervised Learning Projects](#Unsupervised-Learning-algorithms)
    - [1. PCA Digits - Handwritten Digits](#1-pca-digits)
-   - [2. PCA_3D_To_2D - Reduce 3D data to 2D data](#2-PCA_3D_To_2D)
+   - [2. PCA_2D_To_1D - Reduce 2D data to 1D data](#3-PCA_2D_To_1D)
+   - [3. PCA_3D_To_2D - Reduce 3D data to 2D data](#3-PCA_3D_To_2D)
    - 
      
 
@@ -52,10 +53,20 @@ See [../requirements.txt](../requirements.txt) for all packages.
 *Description:* This notebook applies two of PCA: one for 95% variance (for clean image reconstruction) and one for 10 components (to show model performance). It compress a high-dimesional dataset while preserving as much information as possible.
 It visualzess 2-D comples data and improves classification by reducing noise and reducdancy before applying  machine learning.
 
-## 2. PCA_3D_To_2D - Reduce dimensions
+## 2. PCA_2D_To_1D - Reduce dimensions
 
-*Notebook:* [PCA_3D.ipynb](Convert_3D_Data_To_2D_Data/PCA_3D.ipynb)
+*Notebook:* [PCA_2D_To_1D.ipynb](Unsupervised_Learning_algorithms/PCA_2D_To_1D.ipynb)
 
-*Description:* This project was created as a hands-on way to internalize the theory ad application of PCA, and to demonstrate mathematical understanding through code.
+*Description:* Principal Component Analysis is a linear dimensionality reduction technique that:
+  1. Indetifies directions (principal comoponents) of maximum variance in the data
+  2. Projects data onto a new coordinate system aligned with these directions
+  3. Enables compression of data with minimal information loss
+This example reduces 2D data to 1D using NumPy. Demonstrates how data points are projected onto the direction of maximum variance (PC1), with visualizations showing the projection lines and resulting 1D embedding.
+
+## 3. PCA_3D_To_2D - Reduce dimensions
+
+*Notebook:* [PCA_3D_To_2D.ipynb](Unsupervised_Learning_algorithms/PCA_3D_To_2D.ipynb)
+
+*Description:* This project was created as a hands-on way to internalize the theory ad application of PCA, and to demonstrate mathematical understanding through code. Thi notebook reduces 3D data to 2D using NumPy. Demonstrates how data points are projected onto the two directions of maximum variance (PCA1 and PC2), with visualizations in both 3D and 2D showing the projections and proncipal component vectors.
 
 
