@@ -2,6 +2,7 @@
 
 - [Unsupervised Learning Projects](#Unsupervised-Learning-algorithms)
    - [1. PCA Digits - Handwritten Digits](#1-pca-digits)
+   - [2. 
      
 
 ## Unsupervised Learning Algorithms
@@ -50,6 +51,10 @@ See [../requirements.txt](../requirements.txt) for all packages.
 *Description:* This notebook applies two of PCA: one for 95% variance (for clean image reconstruction) and one for 10 components (to show model performance). It compress a high-dimesional dataset while preserving as much information as possible.
 It visualzess 2-D comples data and improves classification by reducing noise and reducdancy before applying  machine learning.
 
+## 2. PCA_3D - PCA_3D_To_2D
 
+*Notebook:* [PCA_3D.ipynb](Convert_3D_Data_To_2D_Data/PCA_3D.ipynb)
+
+*Description:* This project was created as a hands-on way to internalize the theory ad application of PCA, and to demonstrate mathematical understanding through code.
 
 
