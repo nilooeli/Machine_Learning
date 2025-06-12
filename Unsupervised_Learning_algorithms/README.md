@@ -7,6 +7,8 @@ This folder contains multiple unsupervised learning projects implemented in Pyth
 2. [Exception Handling Practice](#exception-handling-practice)
 3. [PCA-2D-To-1D](#pca-2d-to-1d)
 4. [PCA From Scratch (3D to 2D Projection)](#1-pca-from-scratch-3d-to-2d-projection)
+5. [Cancer Subtype Discovery using NMF](#cancer-subtype-discovery-using-nmf)
+   
 
 ## 1. PCA on Handwritten Digits
 - Input: High-dimensional dataset from `sklearn.datasets.load_digits`
@@ -41,6 +43,19 @@ Demonstrates PCA on a simple 2D dataset to reduce dimensionality to 1D. The note
 - Tools used: NumPy, Matplotlib
 
 ---
+
+## 5. Cancer Subtype Discovery using NMF
+
+- **Inputs**: Breast cancer dataset from 'sklearn.dataset.load_breast_cancer'
+- **Goal**: Use Non-negative Matrix Factorization (NMF) to reduce the 30-dimensional gene expression data into a smaller number of latent components
+- **Steps**:
+   - Normalize the data using 'MinMaxScaler'
+   - Apply 'NMF' to extract 5 latent features'
+   - Cluster samples using 'KMeans'
+   - Visualize the results using a 2D scatter plot based on the first two components
+- **Tools used**: 'scikit-learn', 'matplotlib', 'Numpy'
+
+The project shows how NMF can uncover hidden structure in gene expression data, potentionally revealing biological subtypes of breast cancer. Clustering and visualization provide additional insight into how samples relate to each other in the reduced feature spcae.
 
 ## Key Concepts
 
