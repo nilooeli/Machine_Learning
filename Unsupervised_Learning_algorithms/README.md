@@ -44,19 +44,6 @@ Demonstrates PCA on a simple 2D dataset to reduce dimensionality to 1D. The note
 
 ---
 
-## 5. Cancer Subtype Discovery using NMF
-
-- **Inputs**: Breast cancer dataset from 'sklearn.dataset.load_breast_cancer'
-- **Goal**: Use Non-negative Matrix Factorization (NMF) to reduce the 30-dimensional gene expression data into a smaller number of latent components
-- **Steps**:
-   - Normalize the data using 'MinMaxScaler'
-   - Apply 'NMF' to extract 5 latent features'
-   - Cluster samples using 'KMeans'
-   - Visualize the results using a 2D scatter plot based on the first two components
-- **Tools used**: 'scikit-learn', 'matplotlib', 'Numpy'
-
-The project shows how NMF can uncover hidden structure in gene expression data, potentionally revealing biological subtypes of breast cancer. Clustering and visualization provide additional insight into how samples relate to each other in the reduced feature spcae.
-
 ## Key Concepts
 
 ### What is PCA?
@@ -140,3 +127,19 @@ This adds vector arrows in 3D to represent the directions of maximum variance.
 - `exception_practice.ipynb` – Demonstrates Python’s exception handling with `try`, `except`, `else`, and `finally` blocks. Useful for practicing how to write robust code that manages errors gracefully.
 - `PCA-2D-To-1D.ipynb` – PCA example that reduces 2D data to 1D using NumPy. Demonstrates how data points are projected onto the direction of maximum variance (PC1), with visualizations showing the projection lines and resulting 1D embedding.
 - `PCA-3D-To-2D.ipynb` – PCA example that reduces 3D data to 2D using NumPy. Demonstrates how data points are projected onto the two directions of maximum variance (PC1 and PC2), with visualizations in both 3D and 2D showing the projections and principal component vectors.
+
+
+---
+
+## 5. Cancer Subtype Discovery using NMF
+
+- **Inputs**: Breast cancer dataset from 'sklearn.dataset.load_breast_cancer'
+- **Goal**: Use Non-negative Matrix Factorization (NMF) to reduce the 30-dimensional gene expression data into a smaller number of latent components
+- **Steps**:
+   - Normalize the data using 'MinMaxScaler'
+   - Apply 'NMF' to extract 5 latent features'
+   - Cluster samples using 'KMeans'
+   - Visualize the results using a 2D scatter plot based on the first two components
+- **Tools used**: 'scikit-learn', 'matplotlib', 'Numpy'
+
+The project shows how NMF can uncover hidden structure in gene expression data, potentionally revealing biological subtypes of breast cancer. Clustering and visualization provide additional insight into how samples relate to each other in the reduced feature spcae.
